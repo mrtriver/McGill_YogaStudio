@@ -1,0 +1,25 @@
+body {
+    background-color: #E2FFFF;
+    color: #15495E;
+    font-display: sans-serif;
+    font-family: Arial, Vandra, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    line-height: 200%;
+    font-family: serif;
+    text-indent: 1em;
+    text-shadow: #000000 3px 3px 5px;
+    background-color: #B0E6E6;
+    color: #237B7B;
+
+}
+
+h2 {
+    font-family: serif;
+    background-color: #B0E6E6;
+    color: #237B7B;
+    text-align: center;
+}
