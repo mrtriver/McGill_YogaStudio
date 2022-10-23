@@ -33,15 +33,22 @@ h2 {
 
 .footer{
     text-align: center;
+    font-style: italic;
     background-color: #237B7B;
-    color: white ;   
+    color: white ; 
+    border-left: 50px solid #40407A;
+    border-right: 50px solid #40407A;  
+    font-size: 0.80em;
+
 }
 
 header {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    height: 150px;
     padding-left: 2em;
-    background-color: #237B7B;
+    background-color: #80CBC4;
+    background-image:url(images/lilyheader.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 #wrapper{
