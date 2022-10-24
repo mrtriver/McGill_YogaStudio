@@ -9,10 +9,12 @@ body {
     
 }
 nav{
-    text-align: center;
+    
     font-weight: bold;
-    padding: 1em;
-    float: left;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    
     
    
     
@@ -59,7 +61,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    min-width: 1000px;
+    min-width: 400px;
     max-width: 1280px;
 }
 
@@ -70,13 +72,13 @@ img {
 main{
     margin-left: 2em;
     margin-right: 2em;
-    padding-left: 160px;
+    padding-left: 2em;
 }
-#hero{
-    display: block;
-    text-align: center;
-
-}
+#hero img {
+    Max-width:100%;
+    Padding-left:0;
+    Padding-right:0;
+    }
 
 .navMenu{
 display: block;
@@ -87,4 +89,10 @@ border-width: 3px;
 border-color: #CCCCCC;
 padding: 1em;
 margin-bottom: 1em;
+width: 70px;
+}
+
+.nav-logo{
+margin-left: auto;
+margin-right: auto;
 }
