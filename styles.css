@@ -9,12 +9,13 @@ body {
     
 }
 nav{
-    
+   
     font-weight: bold;
-    display: flex;
-    justify-content:space-between;
-    align-items:center;
-    
+    display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+   
     
    
     
@@ -74,11 +75,11 @@ main{
     margin-right: 2em;
     padding-left: 2em;
 }
-#hero img {
-    Max-width:100%;
-    Padding-left:0;
-    Padding-right:0;
-    }
+#hero{
+    display: block;
+    text-align: center;
+
+}
 
 .navMenu{
 display: block;
@@ -89,10 +90,21 @@ border-width: 3px;
 border-color: #CCCCCC;
 padding: 1em;
 margin-bottom: 1em;
-width: 70px;
 }
 
-.nav-logo{
-margin-left: auto;
-margin-right: auto;
+nav ul { 
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: center; 
+
 }
+
+li a {
+    width: 70px;
+
+ }
+
+ .nav-logo{
+    margin:0 auto;
+
+ }
