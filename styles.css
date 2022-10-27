@@ -78,7 +78,14 @@ main{
 #hero{
     display: block;
     text-align: center;
+    
+   
+}
 
+#hero img {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .navMenu{
@@ -108,3 +115,33 @@ li a {
     margin:0 auto;
 
  }
+
+ @media screen and (max-width: 1100px){
+    /* Whatever css you have here will be applied only when the screen
+    size is under 1100px*/
+    nav{
+        justify-content: center;
+    }
+    .row{
+        display: flex;
+    }
+}
+
+.row{
+    display: block;
+}
+    
+
+   
+
+    .col{
+        
+        margin-left: 1%; 
+        margin-right: 1%;
+        margin-bottom: 2em;
+        
+
+        
+    }
+
+
