@@ -139,9 +139,28 @@ li a {
         margin-left: 1%; 
         margin-right: 1%;
         margin-bottom: 2em;
-        
-
-        
+           
     }
 
+.gallery{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
 
+}
+
+.gallery img{
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);;
+}
+
+@media screen and (max-width: 1100px){
+    .gallery{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+    }
+}
